@@ -23,7 +23,7 @@
 
 #define MAX_TTL				255
 
-#define TARGET_PORT			443
+#define TARGET_PORT			0
 
 #define RANDOMIZE_IP(ip)				\
 		ip[0] = (rand() % 255) + 1;		\
