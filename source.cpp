@@ -190,10 +190,6 @@ int main()
 {
 	pcap_if_t* all_devices = NULL;
 
-	printf("Attention. Continue?");
-	system("pause");
-	system("pause");
-	
 	SecureZeroMemory(hThreads, sizeof(hThreads));
 	WaitForZeroDay();
 	WaitForInternetConnection();
